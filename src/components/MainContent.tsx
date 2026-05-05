@@ -181,9 +181,23 @@ export default function MainContent() {
             </header>
 
             <div className="prose prose-gray max-w-none">
-              <p className="text-xl text-gray-600 leading-loose whitespace-pre-line font-medium">
+              <p className="text-xl text-gray-600 leading-loose whitespace-pre-line font-medium mb-12">
                 {activeDetail.description[language as keyof typeof activeDetail.description]}
               </p>
+              
+              {(activeItem as any).images && (activeItem as any).images.length > 0 && (
+                <div className="space-y-6 mb-12">
+                  {(activeItem as any).images.map((imgUrl: string, i: number) => (
+                    <div key={i} className="rounded-3xl overflow-hidden border border-gray-100 shadow-lg">
+                      <img 
+                        src={imgUrl} 
+                        alt={`${activeItem.name?.[language] || 'Project'} screenshot ${i + 1}`}
+                        className="w-full h-auto object-cover"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
               
               <div className="mt-16 p-8 bg-blue-50 rounded-3xl border border-blue-100">
                 <h4 className="text-sm font-black text-blue-900 uppercase tracking-widest mb-4">Note</h4>

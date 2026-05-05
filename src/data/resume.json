@@ -51,21 +51,21 @@
       },
       "details": [
         {
-          "title": { "ko": "보안 데이터 리니지를 위한 인벤토리 생성", "en": "Security Data Lineage Inventory Creation" },
+          "title": { "ko": "보안 데이터 리니지 인벤토리 구축", "en": "Security Data Lineage Inventory" },
           "description": {
             "ko": "전사 데이터 자산의 가시성 확보 및 보안 리니지 구축을 위하여 수천 대 규모의 DB 인벤토리를 전수 조사하고, 자동화된 스캐닝 체계를 통해 데이터 보호 거버넌스를 강화함",
             "en": "Conducted a comprehensive survey of thousands of DB inventories to ensure visibility of enterprise data assets and build security lineage, strengthening data protection governance through an automated scanning system."
           }
         },
         {
-          "title": { "ko": "데이터 접근 제어 - Privacy & SOX", "en": "Data Access Control - Privacy & SOX" },
+          "title": { "ko": "데이터 접근 제어 및 SOX 운영", "en": "Data Access Control & SOX Ops" },
           "description": {
             "ko": "Data Access Control Owner로서 정책, 기획, 구성을 담당하며 대규모 인프라 확대를 안정적으로 관리함",
             "en": "As Data Access Control Owner, managed policy, planning, and configuration, successfully overseeing massive infrastructure expansion."
           }
         },
         {
-          "title": { "ko": "대규모 데이터 자산 보안 리스크 거버넌스 및 이행 관리", "en": "Large-scale Data Asset Security Risk Governance & Enforcement" },
+          "title": { "ko": "데이터 보안 거버넌스 및 이행 관리", "en": "Data Security Governance & Enforcement" },
           "description": {
             "ko": "전사 데이터 플랫폼 내 보안 취약 데이터를 식별 및 탐지하고, 유관 부서와의 협의를 통해 데이터 파기 및 비식별화 전략을 수립하여 실무에 적용하며, 최종 조치 완료 여부에 대한 사후 검증까지 수행하는 엔드 투 엔드(End-to-End) 데이터 보안 거버넌스를 운영함",
             "en": "Operated end-to-end data security governance by identifying and detecting security-vulnerable data within enterprise data platforms, establishing and implementing data destruction and de-identification strategies through stakeholder collaboration, and performing post-verification of remediation results."
@@ -82,21 +82,21 @@
       "role": { "ko": "보안 기획 / 운영 / 자동화", "en": "Security Planning / Operations / Automation" },
       "details": [
         {
-          "title": { "ko": "상용 엔드포인트 솔루션 보안 거버넌스 재정립 및 시스템 최적화", "en": "Endpoint Security Governance Redesign & System Optimization" },
+          "title": { "ko": "엔드포인트 보안 거버넌스 최적화", "en": "Endpoint Security Governance Optimization" },
           "description": {
             "ko": "4개 엔드포인트 보안 솔루션의 전 기능을 전수 조사하여 설정 오류 및 누락 기능을 정상화하고, 불필요 시스템 제거 및 통합을 통해 보안 인프라 효율성을 극대화함",
             "en": "Conducted a comprehensive audit of 4 endpoint security solutions to normalize configurations. Removed or consolidated unnecessary systems to maximize infrastructure efficiency."
           }
         },
         {
-          "title": { "ko": "데이터 표준화 기반 보안 운영 자동화 및 지능형 이상감지 고도화", "en": "Security Ops Automation & Intelligent Anomaly Detection via Data Standardization" },
+          "title": { "ko": "보안 운영 자동화 및 이상감지 고도화", "en": "Security Ops Automation & Anomaly Detection" },
           "description": {
             "ko": "솔루션 간 로그 상관관계 분석을 위한 데이터 표준화 및 종합 분석 체계를 구축하고, 수치/통계 기반 이상감지 모델 확대 및 약 4,000여 건의 보안 정책 오류를 자동 수정함",
             "en": "Established a comprehensive analysis system with data standardization for log correlation. Expanded anomaly detection models and automated the fix of 4,000+ security policies."
           }
         },
         {
-          "title": { "ko": "글로벌 사업장 보안 인프라(Network/Endpoint/OT) 통합 구축", "en": "Global Security Infrastructure (Network/Endpoint/OT) Implementation" },
+          "title": { "ko": "글로벌 보안 인프라 통합 구축", "en": "Global Security Infrastructure Implementation" },
           "description": {
             "ko": "해외 법인을 대상으로 방화벽, IDS, DLP, EDR 등 보안 체계와 OT 보안 시스템을 통합 구축하고 안정적 운영을 위한 기술 이관을 완수함",
             "en": "Implemented integrated network/endpoint security and OT security systems for overseas branches and completed technical handover."
@@ -113,21 +113,21 @@
       "role": { "ko": "엔드포인트 보안 및 데이터 기반 보안 운영", "en": "Endpoint Security & Data-driven Security Ops" },
       "details": [
         {
-          "title": { "ko": "엔드포인트 보안 최적화 및 10만 대 규모 운영 자동화 프레임워크 개발", "en": "Endpoint Security Optimization & 100k-scale Automation Framework" },
+          "title": { "ko": "10만 대 규모 보안 운영 자동화", "en": "100k-scale Security Ops Automation" },
           "description": {
             "ko": "DLP, DRM, EDR 등 엔드포인트 솔루션의 DB 분석을 통해 데이터 맵을 작성하고, 10만 대 이상의 PC를 관리하기 위한 운영 자동화 및 사후 관리 시스템을 독자 개발함",
             "en": "Created data maps via DB analysis of endpoint solutions (DLP, DRM, EDR) and developed an in-house automation framework to manage 100k+ PCs."
           }
         },
         {
-          "title": { "ko": "데이터 분석 기반 보안 리스크 탐지 체계 구축", "en": "Data Analytics-based Security Risk Detection" },
+          "title": { "ko": "데이터 기반 보안 리스크 탐지", "en": "Data-driven Security Risk Detection" },
           "description": {
             "ko": "일일 2억 건의 로그 데이터 분석을 통해 비인가 및 의심 프로그램을 추출하고, 솔루션 간 데이터 매칭을 통해 사내 보안 취약점 점검 및 관리자 이상행위 분석을 자동화함",
             "en": "Extracted unauthorized programs by analyzing 200M logs/day. Automated security vulnerability checks and administrator anomaly analysis through cross-solution data matching."
           }
         },
         {
-          "title": { "ko": "안면인식 기반 고보안 사외 업무 시스템 구축", "en": "Facial Recognition-based Secure Remote Work System" },
+          "title": { "ko": "안면인식 기반 사외 업무 시스템 구축", "en": "Facial Recognition Remote Work System" },
           "description": {
             "ko": "1만 대 이상의 노트북을 대상으로 안면인식 시스템을 연계하여 사내 수준의 보안을 제공하는 원격 업무 환경을 구축하고, 노이즈 제거 및 인식률 개선을 통한 리포팅 체계를 고도화함",
             "en": "Built a secure remote work environment for 10k+ laptops using facial recognition. Improved detection rates and reporting by removing data noise."
@@ -144,21 +144,21 @@
       "role": { "ko": "IT보안 기획 / 인프라 운영 / 데이터 분석", "en": "IT Security Planning / Infra Ops / Data Analysis" },
       "details": [
         {
-          "title": { "ko": "사내 오픈소스 사용 안전성을 위한 Private Repository 구축", "en": "In-house Private Repository for Secure Open Source Usage" },
+          "title": { "ko": "사내 Private Repository 구축", "en": "In-house Private Repository Implementation" },
           "description": {
             "ko": "사내 6천 명의 개발자를 위해 Ubuntu/CentOS Mirror Site 및 Artifactory(pip, npm, docker 등)를 단독 기획·구축하여 개발 효율 및 보안성을 획기적으로 향상함",
             "en": "Independently planned and built a Private Repository (Mirror Sites, Artifactory) for 6k developers to improve development efficiency and security."
           }
         },
         {
-          "title": { "ko": "대규모 보안 인프라 운영 및 네트워크 패킷 분석을 통한 최적화", "en": "Large-scale Security Infra Ops & Network Optimization via Packet Analysis" },
+          "title": { "ko": "보안 인프라 운영 및 네트워크 최적화", "en": "Security Infra Ops & Network Optimization" },
           "description": {
             "ko": "방화벽 210대, Proxy 6대 등 대규모 인프라를 운영하며, 일일 2만 건의 불필요 패킷 분석 및 제거를 통해 총 통신량의 15% 이상을 절감하는 인프라 최적화를 달성함",
             "en": "Managed 210+ firewalls and 6 proxies. Achieved infra optimization by cutting 15%+ of total traffic through daily analysis of 20k+ unnecessary packets."
           }
         },
         {
-          "title": { "ko": "데이터 사이언스 기반 보안 정책 차별화 프로젝트", "en": "Data Science-based Security Policy Differentiation" },
+          "title": { "ko": "데이터 기반 보안 정책 고도화", "en": "Data-driven Security Policy Enhancement" },
           "description": {
             "ko": "서울대 데이터 사이언스 과정 이수 후, BERT 기반 서버 명령어 벡터화를 통해 사용자 역할(운영자/DBA 등)을 자동 분류하는 보안 정책 고도화 프로젝트를 수행함",
             "en": "Conducted a project to classify user roles (Admin/DBA) using BERT-based command vectorization to differentiate security policies after completing an SNU Data Science course."
@@ -175,14 +175,14 @@
       "role": { "ko": "SW 개발 및 데이터 분석", "en": "SW Development & Data Analysis" },
       "details": [
         {
-          "title": { "ko": "설비 진단 및 이상감지 시스템 개발 (미국 특허 획득)", "en": "Equipment Diagnostic & Anomaly Detection System (US Patent)" },
+          "title": { "ko": "설비 진단 및 이상감지 시스템 (미국 특허)", "en": "Equipment Diagnostic & Anomaly Detection (US Patent)" },
           "description": {
             "ko": "설비 상태 정보를 활용한 고장 분석 및 장애 예방 리포트 시스템을 개발하였으며, 관련 기술로 미국 특허(US-9715810-B2)를 획득함",
             "en": "Developed a diagnostic report system for failure analysis and prevention. Acquired a US patent (US-9715810-B2) for this technology."
           }
         },
         {
-          "title": { "ko": "IoT 기반 공장 환경 모니터링 시스템 개발", "en": "IoT-based Factory Environment Monitoring System" },
+          "title": { "ko": "IoT 기반 공장 환경 모니터링", "en": "IoT-based Factory Environment Monitoring" },
           "description": {
             "ko": "Raspberry Pi 및 Arduino를 활용해 진동, 가스, 온습도 센서 데이터를 취합하고 이상점을 분석하는 실시간 환경 모니터링 시스템을 독자 기획함",
             "en": "Independently planned a real-time monitoring system using Raspberry Pi/Arduino to collect and analyze environmental sensor data."
@@ -199,16 +199,16 @@
       "role": { "ko": "SW 개발", "en": "SW Development" },
       "details": [
         {
-          "title": { "ko": "DS부문 최초 모바일 기반 설비 진단 프레임워크 개발", "en": "First Mobile-based Equipment Diagnostic Framework in DS" },
+          "title": { "ko": "모바일 기반 설비 진단 프레임워크 개발", "en": "Mobile-based Equipment Diagnostic Framework" },
           "description": {
             "ko": "Galaxy 기기를 활용하여 설비 컨트롤 및 모니터링이 가능한 모바일 프레임워크를 구축하여 현장 중심의 설비 관리 체계를 마련함",
             "en": "Built a mobile framework for equipment control/monitoring using Galaxy devices, establishing a field-oriented management system."
           }
         },
         {
-          "title": { "ko": "로봇 제어 시스템 안정성 개선 및 자동화 테스트 구축", "en": "Robot Control System Stability & Automated Testing" },
+          "title": { "ko": "로봇 제어 안정화 및 자동화 테스트 구축", "en": "Robot Control Stability & Automated Testing" },
           "description": {
-            "ko": "로봇 운행 중지 오류 해결을 위해 변수 초기화 및 Watchdog 시스템을 적용하고, Unit Test 기반의 빌드 자동화 체계를 구축하여 생산 중단을 방지함",
+            "ko": "로봇 운행 중 중지 오류 해결을 위해 변수 초기화 및 Watchdog 시스템을 적용하고, Unit Test 기반의 빌드 자동화 체계를 구축하여 생산 중단을 방지함",
             "en": "Applied Watchdog systems and variable initialization to fix robot errors. Built unit test-based automated build systems to prevent production downtime."
           }
         }
@@ -223,14 +223,14 @@
       "role": { "ko": "보안 기획 및 제품 보안", "en": "Security Planning & Product Security" },
       "details": [
         {
-          "title": { "ko": "보안 거버넌스 수립 및 인프라 구축", "en": "Security Governance & Infra Implementation" },
+          "title": { "ko": "보안 거버넌스 및 인프라 구축", "en": "Security Governance & Infra Build" },
           "description": {
             "ko": "전사 보안 사규 수립 및 교육을 진행하고, Firewall, VPN, Anti-Virus 등 핵심 보안 인프라를 PoC부터 운영까지 전담함",
             "en": "Established company-wide security policies and managed the full lifecycle of security infra (Firewall, VPN, Anti-Virus)."
           }
         },
         {
-          "title": { "ko": "제품 및 개발 보안 프로세스 도입", "en": "Product & Dev Security Process Implementation" },
+          "title": { "ko": "제품 및 개발 보안 프로세스 도입", "en": "Product & Dev Security Implementation" },
           "description": {
             "ko": "코드 난독화, 정적 분석 도구 도입 및 병렬 빌드 체계 구축을 통해 제품의 보안성 및 개발 효율을 강화함",
             "en": "Enhanced product security and dev efficiency by introducing code obfuscation, static analysis, and parallel build systems."
@@ -247,14 +247,14 @@
       "role": { "ko": "보안 솔루션 및 OS 커널 개발", "en": "Security Solution & OS Kernel Development" },
       "details": [
         {
-          "title": { "ko": "커널 레벨 접근제어 솔루션(SysKeeper OS) 개발", "en": "Kernel-level Access Control (SysKeeper OS) Development" },
+          "title": { "ko": "커널 레벨 접근제어 솔루션 개발", "en": "Kernel-level Access Control Development" },
           "description": {
             "ko": "SSDT Hooking 및 Device Driver 기술을 활용하여 윈도우 및 유닉스 환경의 강력한 접근제어 및 감사로그 시스템을 설계 및 개발함",
             "en": "Designed and developed access control and audit systems for Windows/Unix using SSDT Hooking and Device Drivers."
           }
         },
         {
-          "title": { "ko": "APM 솔루션(SysMaster) 런타임 후킹 모듈 개발", "en": "APM Solution (SysMaster) Runtime Hooking Module" },
+          "title": { "ko": "APM 런타임 후킹 모듈 개발", "en": "APM Runtime Hooking Module Development" },
           "description": {
             "ko": "성능 측정을 위해 함수 단위로 동작하는 정교한 런타임 후킹 모듈을 개발하여 APM 측정 범위를 획기적으로 확장함",
             "en": "Developed sophisticated runtime hooking modules at the function level to expand APM measurement scope."
@@ -274,9 +274,10 @@
         "ko": "기획 및 개발",
         "en": "Planning & Development"
       },
+      "images": ["https://raw.githubusercontent.com/zafrem/Desk-tools/main/images/Init-page.jpg"],
       "details": [
         {
-          "title": { "ko": "스타트업을 위한 고성능 로컬 퍼스트 유틸리티 플랫폼 개발", "en": "High-performance, Local-first Utility Platform for Startups" },
+          "title": { "ko": "스타트업용 고성능 유틸리티 플랫폼", "en": "High-performance Utility Platform for Startups" },
           "description": {
             "ko": "멀티태스킹이 빈번한 환경을 위해 설계된 고성능 로컬 퍼스트 유틸리티 플랫폼. JSON 뷰어, 날짜 계산기, 색상 선택기 등 필수 도구들을 보안성과 속도가 강화된 환경으로 제공함",
             "en": "A high-performance, local-first utility platform designed for multi-tasking individuals at startups. Provides essential tools like JSON viewer, date calculator, and color picker with enhanced security and speed."
@@ -294,6 +295,7 @@
         "ko": "Plugin 개발 및 메인테이너",
         "en": "Plugin Development & Maintainer"
       },
+      "images": ["https://raw.githubusercontent.com/zafrem/obsidian-role-switch/main/image/Demo.gif"],
       "details": [
         {
           "title": { "ko": "Obsidian 공식 커뮤니티 플러그인 기여", "en": "Obsidian Official Community Plugin Contribution" },
@@ -316,7 +318,7 @@
       },
       "details": [
         {
-          "title": { "ko": "고속 연산 학습을 위한 인터랙티브 플랫폼 개발", "en": "Interactive Platform for High-speed Mental Arithmetic" },
+          "title": { "ko": "고속 연산 인터랙티브 학습 플랫폼", "en": "High-speed Interactive Learning Platform" },
           "description": {
             "ko": "Next.js 15와 Framer Motion을 활용하여 설계된 'Computational Repetition' 플랫폼. '빠른 응답'과 '생동감'을 테마로 지루한 연산 반복 학습을 몰입감 있는 사용자 경험으로 혁신함",
             "en": "A 'Computational Repetition' platform built with Next.js 15 and Framer Motion. Focused on 'fast response' and 'liveliness,' transforming repetitive math practice into an engaging and reactive user experience."
