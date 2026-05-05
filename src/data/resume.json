@@ -46,16 +46,15 @@
       "department": { "ko": "Data Security Engineering", "en": "Data Security Engineering" },
       "position": "L6-2",
       "role": {
-        "ko": "개인정보 시스템 개발/정책, DB접근제어 운영",
-        "en": "Privacy System Development/Policy, DB Access Control Operation"
+        "ko": "데이터 보안 거버넌스 및 시스템 개발",
+        "en": "Data Security Governance & System Development"
       },
-      "related": ["samsung-ds-innovation", "samsung-ds-it-security"],
       "details": [
         {
-          "title": { "ko": "개인정보 스캐너 개발", "en": "Personal Information Scanner Development" },
+          "title": { "ko": "보안 데이터 리니지를 위한 인벤토리 생성", "en": "Security Data Lineage Inventory Creation" },
           "description": {
-            "ko": "다수의 개인정보 판별 시스템을 이용한 다층 탐색 체계를 구현, 수많은 DB 시스템에 적용 후 개인정보 판별 삭제 및 변환 프로세스 구축 / 운영",
-            "en": "Implemented a multi-layer discovery system using multiple privacy detection systems. Applied to a large-scale DB environment and established processes for privacy identification, deletion, and transformation."
+            "ko": "전사 데이터 자산의 가시성 확보 및 보안 리니지 구축을 위하여 수천 대 규모의 DB 인벤토리를 전수 조사하고, 자동화된 스캐닝 체계를 통해 데이터 보호 거버넌스를 강화함",
+            "en": "Conducted a comprehensive survey of thousands of DB inventories to ensure visibility of enterprise data assets and build security lineage, strengthening data protection governance through an automated scanning system."
           }
         },
         {
@@ -66,201 +65,151 @@
           }
         },
         {
-          "title": { "ko": "개인정보 데이터 리뷰 및 정책", "en": "Privacy Data Review & Policy" },
+          "title": { "ko": "대규모 데이터 자산 보안 리스크 거버넌스 및 이행 관리", "en": "Large-scale Data Asset Security Risk Governance & Enforcement" },
           "description": {
-            "ko": "개인정보 관리 담당자로서 Hive 등 대규모 데이터 플랫폼에서 수많은 데이터를 찾아 삭제 또는 변환하는 시스템 구축 지원",
-            "en": "As a privacy manager, supported building systems to identify, delete, or transform vast amounts of data across large-scale platforms like Hive."
+            "ko": "전사 데이터 플랫폼 내 보안 취약 데이터를 식별 및 탐지하고, 유관 부서와의 협의를 통해 데이터 파기 및 비식별화 전략을 수립하여 실무에 적용하며, 최종 조치 완료 여부에 대한 사후 검증까지 수행하는 엔드 투 엔드(End-to-End) 데이터 보안 거버넌스를 운영함",
+            "en": "Operated end-to-end data security governance by identifying and detecting security-vulnerable data within enterprise data platforms, establishing and implementing data destruction and de-identification strategies through stakeholder collaboration, and performing post-verification of remediation results."
           }
         }
       ]
     },
     {
       "id": "samsung-ds-innovation",
-      "period": "2023.01.01~2024.03.31",
+      "period": "2023.03.01 ~ 2024.03.31",
       "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
-      "department": { "ko": "DS 혁신센터 IT 시스템 보안", "en": "DS Innovation Center IT System Security" },
-      "position": { "ko": "수석 연구원", "en": "Principal Engineer" },
-      "role": { "ko": "IT보안 설계 / 운영", "en": "IT Security Design / Operation" },
-      "related": ["samsung-ds-security-center", "samsung-ds-it-security"],
+      "department": { "ko": "DS 혁신센터 Security SW Lab", "en": "DS Innovation Center Security SW Lab" },
+      "position": { "ko": "보안 운영 Principal Manager", "en": "Principal Manager, Security Operations" },
+      "role": { "ko": "보안 기획 / 운영 / 자동화", "en": "Security Planning / Operations / Automation" },
       "details": [
         {
-          "title": { "ko": "솔루션 기술 분석", "en": "Solution Technical Analysis" },
+          "title": { "ko": "상용 엔드포인트 솔루션 보안 거버넌스 재정립 및 시스템 최적화", "en": "Endpoint Security Governance Redesign & System Optimization" },
           "description": {
-            "ko": "각 시스템 상세 분석을 통한 취약점 파악, 감지 포인트 확인 및 센싱체계 구축. 센싱 프레임워크 개발을 통해 DB, Daemon, 응답속도 등 이상감지 체계 구축",
-            "en": "Identified vulnerabilities through detailed system analysis, confirmed detection points, and built a sensing system. Developed an anomaly detection framework for DB, Daemon, and response times."
+            "ko": "4개 엔드포인트 보안 솔루션의 전 기능을 전수 조사하여 설정 오류 및 누락 기능을 정상화하고, 불필요 시스템 제거 및 통합을 통해 보안 인프라 효율성을 극대화함",
+            "en": "Conducted a comprehensive audit of 4 endpoint security solutions to normalize configurations. Removed or consolidated unnecessary systems to maximize infrastructure efficiency."
           }
         },
         {
-          "title": { "ko": "Public / Private Cloud Security 분석 설계", "en": "Public / Private Cloud Security Analysis & Design" },
+          "title": { "ko": "데이터 표준화 기반 보안 운영 자동화 및 지능형 이상감지 고도화", "en": "Security Ops Automation & Intelligent Anomaly Detection via Data Standardization" },
           "description": {
-            "ko": "Cloud 골든이미지 보안 검사 및 검사 자동화 체계 구축",
-            "en": "Designed security inspections for Public/Private Cloud golden images and built an automated inspection system."
+            "ko": "솔루션 간 로그 상관관계 분석을 위한 데이터 표준화 및 종합 분석 체계를 구축하고, 수치/통계 기반 이상감지 모델 확대 및 약 4,000여 건의 보안 정책 오류를 자동 수정함",
+            "en": "Established a comprehensive analysis system with data standardization for log correlation. Expanded anomaly detection models and automated the fix of 4,000+ security policies."
+          }
+        },
+        {
+          "title": { "ko": "글로벌 사업장 보안 인프라(Network/Endpoint/OT) 통합 구축", "en": "Global Security Infrastructure (Network/Endpoint/OT) Implementation" },
+          "description": {
+            "ko": "해외 법인을 대상으로 방화벽, IDS, DLP, EDR 등 보안 체계와 OT 보안 시스템을 통합 구축하고 안정적 운영을 위한 기술 이관을 완수함",
+            "en": "Implemented integrated network/endpoint security and OT security systems for overseas branches and completed technical handover."
           }
         }
       ]
     },
     {
       "id": "samsung-ds-security-center",
-      "period": "2022.01.01~2022.12.31",
+      "period": "2021.12.05 ~ 2023.02.28",
       "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
-      "department": { "ko": "DS 정보보호 센터", "en": "DS Information Security Center" },
+      "department": { "ko": "DS 정보보호센터 IT보안", "en": "DS Information Security Center IT Security" },
       "position": { "ko": "책임 엔지니어", "en": "Senior Engineer" },
-      "role": { "ko": "IT보안 설계/운영/정책", "en": "IT Security Design/Operation/Policy" },
-      "related": ["samsung-ds-it-security", "samsung-ds-data-expert"],
+      "role": { "ko": "엔드포인트 보안 및 데이터 기반 보안 운영", "en": "Endpoint Security & Data-driven Security Ops" },
       "details": [
         {
-          "title": { "ko": "안면인식을 활용한 원격 업무 시스템 설계", "en": "Remote Work System Design using Facial Recognition" },
+          "title": { "ko": "엔드포인트 보안 최적화 및 10만 대 규모 운영 자동화 프레임워크 개발", "en": "Endpoint Security Optimization & 100k-scale Automation Framework" },
           "description": {
-            "ko": "원격 업무 시스템 보안 담당자로서 권한 분석, 신규 시스템 설계, 안면인식 연계 및 AD 하드닝 검토. 안정적인 서비스 및 보안 위반 리포팅 체계 확보",
-            "en": "As security lead for remote work systems, analyzed permissions, designed new systems, integrated facial recognition, and reviewed AD hardening. Ensured stable service and reporting."
+            "ko": "DLP, DRM, EDR 등 엔드포인트 솔루션의 DB 분석을 통해 데이터 맵을 작성하고, 10만 대 이상의 PC를 관리하기 위한 운영 자동화 및 사후 관리 시스템을 독자 개발함",
+            "en": "Created data maps via DB analysis of endpoint solutions (DLP, DRM, EDR) and developed an in-house automation framework to manage 100k+ PCs."
           }
         },
         {
-          "title": { "ko": "통계분석을 통한 이상감지 구축", "en": "Anomaly Detection via Statistical Analysis" },
+          "title": { "ko": "데이터 분석 기반 보안 리스크 탐지 체계 구축", "en": "Data Analytics-based Security Risk Detection" },
           "description": {
-            "ko": "기준 데이터 정합성 분석 자동화, 사내 프로그램 사용 내역을 활용한 임직원 업무 분석, 외부 네트워크 상세분석 및 알람 자동화",
-            "en": "Automated data integrity analysis, analyzed employee work patterns via program usage logs, and automated external network analysis and alerts."
+            "ko": "일일 2억 건의 로그 데이터 분석을 통해 비인가 및 의심 프로그램을 추출하고, 솔루션 간 데이터 매칭을 통해 사내 보안 취약점 점검 및 관리자 이상행위 분석을 자동화함",
+            "en": "Extracted unauthorized programs by analyzing 200M logs/day. Automated security vulnerability checks and administrator anomaly analysis through cross-solution data matching."
           }
         },
         {
-          "title": { "ko": "사외 문서 공유 시스템 개선 설계", "en": "External Document Sharing System Improvement" },
+          "title": { "ko": "안면인식 기반 고보안 사외 업무 시스템 구축", "en": "Facial Recognition-based Secure Remote Work System" },
           "description": {
-            "ko": "문서 보안 솔루션을 전환하여 외부 협력사와 자료 공유 및 소통에 소요되는 문서 로딩 시간을 20% 향상",
-            "en": "Switched document security solutions, improving document loading time by 20% for sharing and communication with external partners."
-          }
-        }
-      ]
-    },
-    {
-      "id": "samsung-ds-data-expert",
-      "period": "2021.01.01~2021.12.31",
-      "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
-      "department": { "ko": "데이터 분석 전문가 과정", "en": "Data Analysis Expert Course" },
-      "position": { "ko": "책임 엔지니어", "en": "Senior Engineer" },
-      "role": { "ko": "서울대 교육과정 이수", "en": "Completed SNU Educational Program" },
-      "details": [
-        {
-          "title": { "ko": "데이터 분석 교육", "en": "Data Analysis Training" },
-          "description": {
-            "ko": "DS부문 서울대학교 데이터 사이언스 과정 7기 수료. 자연어 처리를 활용한 서버 접속자 그룹 분리 프로젝트 수행",
-            "en": "Completed the 7th Data Science course at Seoul National University for the DS division. Conducted a project on server visitor group separation using NLP."
+            "ko": "1만 대 이상의 노트북을 대상으로 안면인식 시스템을 연계하여 사내 수준의 보안을 제공하는 원격 업무 환경을 구축하고, 노이즈 제거 및 인식률 개선을 통한 리포팅 체계를 고도화함",
+            "en": "Built a secure remote work environment for 10k+ laptops using facial recognition. Improved detection rates and reporting by removing data noise."
           }
         }
       ]
     },
     {
       "id": "samsung-ds-it-security",
-      "period": "2017.08.15 ~ 2020.12.31",
+      "period": "2016.08.15 ~ 2021.12.05",
       "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
-      "department": { "ko": "DS 정보전략 IT 보안", "en": "DS Info Strategy IT Security" },
+      "department": { "ko": "DS 정보전략 IT보안", "en": "DS Info Strategy IT Security" },
       "position": { "ko": "책임 엔지니어", "en": "Senior Engineer" },
-      "role": { "ko": "IT보안 분석/운영", "en": "IT Security Analysis/Operation" },
-      "related": ["golfzon", "tmaxsoft"],
+      "role": { "ko": "IT보안 기획 / 인프라 운영 / 데이터 분석", "en": "IT Security Planning / Infra Ops / Data Analysis" },
       "details": [
         {
-          "title": { "ko": "IT보안 기획", "en": "IT Security Planning" },
+          "title": { "ko": "사내 오픈소스 사용 안전성을 위한 Private Repository 구축", "en": "In-house Private Repository for Secure Open Source Usage" },
           "description": {
-            "ko": "망분리 정책 수립, 투자 심의, Open Source 활용 솔루션 도입 검토 (Splunk, ELK, Node.js). 오픈소스를 이용한 검증으로 투자 효율 극대화",
-            "en": "Established network separation policies, investment review, and reviewed open-source solution adoption (Splunk, ELK, Node.js). Maximized investment efficiency through open-source validation."
+            "ko": "사내 6천 명의 개발자를 위해 Ubuntu/CentOS Mirror Site 및 Artifactory(pip, npm, docker 등)를 단독 기획·구축하여 개발 효율 및 보안성을 획기적으로 향상함",
+            "en": "Independently planned and built a Private Repository (Mirror Sites, Artifactory) for 6k developers to improve development efficiency and security."
           }
         },
         {
-          "title": { "ko": "운영 업무 개선", "en": "Operation Improvement" },
+          "title": { "ko": "대규모 보안 인프라 운영 및 네트워크 패킷 분석을 통한 최적화", "en": "Large-scale Security Infra Ops & Network Optimization via Packet Analysis" },
           "description": {
-            "ko": "설비 추출 데이터 정보조회 시각화, 자동화 모듈을 통한 단순 반복 업무 및 테스트 자동화 개발. 방화벽 사용률 및 프록시 통신 효율 개선",
-            "en": "Visualized equipment data queries and developed automation modules for repetitive tasks and testing. Improved firewall usage and proxy communication efficiency."
+            "ko": "방화벽 210대, Proxy 6대 등 대규모 인프라를 운영하며, 일일 2만 건의 불필요 패킷 분석 및 제거를 통해 총 통신량의 15% 이상을 절감하는 인프라 최적화를 달성함",
+            "en": "Managed 210+ firewalls and 6 proxies. Achieved infra optimization by cutting 15%+ of total traffic through daily analysis of 20k+ unnecessary packets."
           }
         },
         {
-          "title": { "ko": "IT보안 솔루션 운영", "en": "IT Security Solution Operation" },
+          "title": { "ko": "데이터 사이언스 기반 보안 정책 차별화 프로젝트", "en": "Data Science-based Security Policy Differentiation" },
           "description": {
-            "ko": "서버/DB 접속 관리, 데이터센터 보안성 검토, Global AD 시스템 구축 및 계정/암호 정책 적용",
-            "en": "Managed server/DB access, reviewed data center security, built Global AD systems, and applied account/password policies."
-          }
-        },
-        {
-          "title": { "ko": "사내 Private Repository 구축", "en": "In-house Private Repository" },
-          "description": {
-            "ko": "Ubuntu/CentOS Mirror Site 및 Artifactory(pip, npm, docker 등) 구축 운영으로 사내 오픈소스 사용 안전성 및 개발 효율 향상",
-            "en": "Built and operated Mirror Sites and Artifactory to improve the safety and efficiency of in-house open-source usage."
-          }
-        },
-        {
-          "title": { "ko": "중국 Xian 법인 장기 파견", "en": "Long-term Assignment in Xi'an, China" },
-          "description": {
-            "ko": "시안 법인 보안 시스템 개편 및 운영체계 구축. AD 기반 역할기반 방화벽 정책 및 ELK 기반 실시간 장애분석 체계 구축",
-            "en": "Reformed security systems and built operations in the Xi'an office. Implemented AD-based RBAC firewall policies and ELK-based real-time anomaly detection."
+            "ko": "서울대 데이터 사이언스 과정 이수 후, BERT 기반 서버 명령어 벡터화를 통해 사용자 역할(운영자/DBA 등)을 자동 분류하는 보안 정책 고도화 프로젝트를 수행함",
+            "en": "Conducted a project to classify user roles (Admin/DBA) using BERT-based command vectorization to differentiate security policies after completing an SNU Data Science course."
           }
         }
       ]
     },
     {
       "id": "samsung-ds-logistics",
-      "period": "2014.01.31 ~ 2017.08.15",
+      "period": "2014.01.31 ~ 2016.08.15",
       "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
-      "department": { "ko": "DS 물류 자동화", "en": "DS Logistics Automation" },
+      "department": { "ko": "DS 물류자동화", "en": "DS Logistics Automation" },
       "position": { "ko": "책임 연구원", "en": "Senior Researcher" },
-      "role": { "ko": "Programming / 데이터 분석", "en": "Programming / Data Analysis" },
-      "related": ["samsung-ds-prod-tech"],
+      "role": { "ko": "SW 개발 및 데이터 분석", "en": "SW Development & Data Analysis" },
       "details": [
         {
-          "title": { "ko": "설비 진단 시스템 개발", "en": "Equipment Diagnostic System Development" },
+          "title": { "ko": "설비 진단 및 이상감지 시스템 개발 (미국 특허 획득)", "en": "Equipment Diagnostic & Anomaly Detection System (US Patent)" },
           "description": {
-            "ko": "설비 정보를 취합하여 이상점을 비교 분석하는 Report 시스템 개발. 사용률, 고장 분석, 에러 원인 파악을 통한 문제 선제적 해결",
-            "en": "Developed a report system that compares and analyzes equipment anomalies. Proactively resolved issues by analyzing usage and failure causes."
+            "ko": "설비 상태 정보를 활용한 고장 분석 및 장애 예방 리포트 시스템을 개발하였으며, 관련 기술로 미국 특허(US-9715810-B2)를 획득함",
+            "en": "Developed a diagnostic report system for failure analysis and prevention. Acquired a US patent (US-9715810-B2) for this technology."
           }
         },
         {
-          "title": { "ko": "설비 PM 스케줄러", "en": "Equipment PM Scheduler" },
+          "title": { "ko": "IoT 기반 공장 환경 모니터링 시스템 개발", "en": "IoT-based Factory Environment Monitoring System" },
           "description": {
-            "ko": "설비 동작 횟수와 부품 수명 주기 간 상관관계를 분석하여 부품 주문 딜레이를 줄이고 설비 가용성 및 생산 연속성 확보",
-            "en": "Analyzed correlation between operation counts and part lifecycles to reduce order delays and ensure equipment availability."
-          }
-        },
-        {
-          "title": { "ko": "환경분석 IoT 시스템 개발", "en": "Environmental Analysis IoT System" },
-          "description": {
-            "ko": "진동, 가스, 온습도 센서를 이용한 공장 내부 환경 정보 취합 IoT 시스템(Raspberry Pi, Arduino) 개발",
-            "en": "Developed an IoT system using Raspberry Pi and Arduino to collect environmental data like vibration, gas, and temperature."
-          }
-        },
-        {
-          "title": { "ko": "특허 획득", "en": "Patent Acquisition" },
-          "description": {
-            "ko": "반도체 물류 설비의 운영 환경 파라미터 자동 모니터링 및 이상감지 경보 시스템 (US15/075836)",
-            "en": "System and method for monitoring Operational Parameters in Semiconductor Logistics Facility (US15/075836)."
+            "ko": "Raspberry Pi 및 Arduino를 활용해 진동, 가스, 온습도 센서 데이터를 취합하고 이상점을 분석하는 실시간 환경 모니터링 시스템을 독자 기획함",
+            "en": "Independently planned a real-time monitoring system using Raspberry Pi/Arduino to collect and analyze environmental sensor data."
           }
         }
       ]
     },
     {
       "id": "samsung-ds-prod-tech",
-      "period": "2011.06.01 ~ 2015.01.31",
+      "period": "2011.06.01 ~ 2014.01.31",
       "company": { "ko": "삼성전자", "en": "Samsung Electronics" },
       "department": { "ko": "생산기술 연구소", "en": "Production Technology Research Institute" },
       "position": { "ko": "책임 연구원", "en": "Senior Researcher" },
-      "role": { "ko": "Programming", "en": "Programming" },
-      "related": ["tmaxsoft"],
+      "role": { "ko": "SW 개발", "en": "SW Development" },
       "details": [
         {
-          "title": { "ko": "설비진단 모바일 프레임워크", "en": "Mobile Framework for Equipment Diagnosis" },
+          "title": { "ko": "DS부문 최초 모바일 기반 설비 진단 프레임워크 개발", "en": "First Mobile-based Equipment Diagnostic Framework in DS" },
           "description": {
-            "ko": "DS 부문 생산 시스템 최초의 모바일 기기(Galaxy) 기반 설비 컨트롤 및 모니터링 프레임워크 개발",
-            "en": "Developed the first mobile-based equipment control and monitoring framework for the DS division."
+            "ko": "Galaxy 기기를 활용하여 설비 컨트롤 및 모니터링이 가능한 모바일 프레임워크를 구축하여 현장 중심의 설비 관리 체계를 마련함",
+            "en": "Built a mobile framework for equipment control/monitoring using Galaxy devices, establishing a field-oriented management system."
           }
         },
         {
-          "title": { "ko": "물류진단 시스템 개발", "en": "Logistics Diagnostic System" },
+          "title": { "ko": "로봇 제어 시스템 안정성 개선 및 자동화 테스트 구축", "en": "Robot Control System Stability & Automated Testing" },
           "description": {
-            "ko": "무선 네트워크, 경로, 작업 위치 분석을 위한 Report 시스템 및 데이터 시각화 도입",
-            "en": "Introduced report systems and data visualization for wireless network, path, and work location analysis."
-          }
-        },
-        {
-          "title": { "ko": "로봇 시스템 개선", "en": "Robot System Optimization" },
-          "description": {
-            "ko": "로봇 운행 중 중지 현상 개선을 위한 변수 초기화, 자동화 테스트 및 WatchDog 시스템 적용. 빌드 시스템 자동화 및 테스트 체계 구축",
-            "en": "Optimized robot operations with variable initialization, automated tests, and WatchDog systems. Built automated build systems."
+            "ko": "로봇 운행 중지 오류 해결을 위해 변수 초기화 및 Watchdog 시스템을 적용하고, Unit Test 기반의 빌드 자동화 체계를 구축하여 생산 중단을 방지함",
+            "en": "Applied Watchdog systems and variable initialization to fix robot errors. Built unit test-based automated build systems to prevent production downtime."
           }
         }
       ]
@@ -269,30 +218,22 @@
       "id": "golfzon",
       "period": "2009.11.25 ~ 2011.05.31",
       "company": { "ko": "Golfzon", "en": "Golfzon" },
-      "department": { "ko": "인사팀-IT 인프라", "en": "HR Team - IT Infrastructure" },
+      "department": { "ko": "인사팀 IT인프라/보안", "en": "HR Team IT Infra/Security" },
       "position": { "ko": "대리", "en": "Assistant Manager" },
-      "role": { "ko": "개발 / 운영 보안", "en": "Dev / Ops Security" },
-      "related": ["tmaxsoft"],
+      "role": { "ko": "보안 기획 및 제품 보안", "en": "Security Planning & Product Security" },
       "details": [
         {
-          "title": { "ko": "보안 장비 운용 및 인프라", "en": "Security Device Operation & Infra" },
+          "title": { "ko": "보안 거버넌스 수립 및 인프라 구축", "en": "Security Governance & Infra Implementation" },
           "description": {
-            "ko": "Firewall, SSL/VPN, Anti-Virus, Spam-filter 도입 및 운영. 유무선 네트워크 설계 및 IDC 게임 서버 네트워크 관리",
-            "en": "Implemented and operated firewalls, SSL/VPN, and anti-virus systems. Designed wired/wireless networks and managed IDC servers."
+            "ko": "전사 보안 사규 수립 및 교육을 진행하고, Firewall, VPN, Anti-Virus 등 핵심 보안 인프라를 PoC부터 운영까지 전담함",
+            "en": "Established company-wide security policies and managed the full lifecycle of security infra (Firewall, VPN, Anti-Virus)."
           }
         },
         {
-          "title": { "ko": "제품 및 개발 보안 관리", "en": "Product & Development Security" },
+          "title": { "ko": "제품 및 개발 보안 프로세스 도입", "en": "Product & Dev Security Process Implementation" },
           "description": {
-            "ko": "코드 난독화, 메모리 보안, 라이선스 개선, 소스 코드 정적 분석 프로세스 도입으로 제품 보안성 강화",
-            "en": "Enhanced product security by introducing code obfuscation, memory security, and static code analysis."
-          }
-        },
-        {
-          "title": { "ko": "보안정책 수립 및 교육", "en": "Security Policy & Training" },
-          "description": {
-            "ko": "사내 보안 정책 수립, 외주업체 보안 관리 지침 마련 및 임직원 보안 교육 진행",
-            "en": "Established in-house security policies, outsourced vendor management guidelines, and conducted security training."
+            "ko": "코드 난독화, 정적 분석 도구 도입 및 병렬 빌드 체계 구축을 통해 제품의 보안성 및 개발 효율을 강화함",
+            "en": "Enhanced product security and dev efficiency by introducing code obfuscation, static analysis, and parallel build systems."
           }
         }
       ]
@@ -302,36 +243,21 @@
       "period": "2006.01.01 ~ 2009.11.23",
       "company": { "ko": "TmaxSoft", "en": "TmaxSoft" },
       "department": { "ko": "보안 개발팀", "en": "Security Development Team" },
-      "position": { "ko": "선임 연구원, 개발 팀장", "en": "Senior Researcher, Team Lead" },
-      "role": { "ko": "Programming", "en": "Programming" },
-      "related": ["samsung-ds-prod-tech"],
+      "position": { "ko": "선임 연구원 / 팀장", "en": "Senior Researcher / Team Lead" },
+      "role": { "ko": "보안 솔루션 및 OS 커널 개발", "en": "Security Solution & OS Kernel Development" },
       "details": [
         {
-          "title": { "ko": "TMAX OS / SysKeeper 개발", "en": "TMAX OS / SysKeeper Development" },
+          "title": { "ko": "커널 레벨 접근제어 솔루션(SysKeeper OS) 개발", "en": "Kernel-level Access Control (SysKeeper OS) Development" },
           "description": {
-            "ko": "Linux 기반 OS 원리 분석 및 Device Driver 개발. SSDT를 이용한 접근제어 및 로그인 체계 지원 (SysKeeper OS)",
-            "en": "Analyzed Linux-based OS principles and developed Device Drivers. Supported access control and login systems using SSDT."
+            "ko": "SSDT Hooking 및 Device Driver 기술을 활용하여 윈도우 및 유닉스 환경의 강력한 접근제어 및 감사로그 시스템을 설계 및 개발함",
+            "en": "Designed and developed access control and audit systems for Windows/Unix using SSDT Hooking and Device Drivers."
           }
         },
         {
-          "title": { "ko": "SysKeeper OS Ver 3 재설계", "en": "SysKeeper OS Ver 3 Redesign" },
+          "title": { "ko": "APM 솔루션(SysMaster) 런타임 후킹 모듈 개발", "en": "APM Solution (SysMaster) Runtime Hooking Module" },
           "description": {
-            "ko": "구조적 결함 제거를 위한 재설계, CC인증 대응, 유닛 테스트 및 테스트 자동화 체계 구축",
-            "en": "Redesigned to eliminate structural defects, handled CC certification, and established Unit Testing and automation."
-          }
-        },
-        {
-          "title": { "ko": "SysMaster Runtime Hooking", "en": "SysMaster Runtime Hooking" },
-          "description": {
-            "ko": "APM 제품의 성능 측정을 위해 함수 단위로 세분화된 Runtime Hooking 모듈 개발",
-            "en": "Developed granular Runtime Hooking modules at the function level for APM performance measurement."
-          }
-        },
-        {
-          "title": { "ko": "Lotto / IAM TF", "en": "Lotto / IAM TF" },
-          "description": {
-            "ko": "Lotto 서비스 시스템 분석 및 서버 개발. PAM/GINA를 이용한 Active Directory 연동 계정 통합 모듈 개발",
-            "en": "Analyzed and developed Lotto service systems. Developed AD integration modules for account unification using PAM/GINA."
+            "ko": "성능 측정을 위해 함수 단위로 동작하는 정교한 런타임 후킹 모듈을 개발하여 APM 측정 범위를 획기적으로 확장함",
+            "en": "Developed sophisticated runtime hooking modules at the function level to expand APM measurement scope."
           }
         }
       ]
@@ -342,18 +268,18 @@
       "id": "desk-tools",
       "period": "2024.01",
       "name": { "ko": "Desk-tools", "en": "Desk-tools" },
-      "type": { "ko": "Web Tool Collection", "en": "Web Tool Collection" },
-      "url": "https://github.com/zafrem/desk-tools",
+      "type": { "ko": "Web Utility Platform", "en": "Web Utility Platform" },
+      "url": "https://zafrem.github.io/Desk-tools/",
       "role": {
-        "ko": "개발 및 기획",
-        "en": "Development & Planning"
+        "ko": "기획 및 개발",
+        "en": "Planning & Development"
       },
       "details": [
         {
-          "title": { "ko": "도구 모음 개발", "en": "Tool Collection Development" },
+          "title": { "ko": "스타트업을 위한 고성능 로컬 퍼스트 유틸리티 플랫폼 개발", "en": "High-performance, Local-first Utility Platform for Startups" },
           "description": {
-            "ko": "색상 선택기, JSON 뷰어, 날짜 계산기 등 개발 효율을 높이기 위한 웹 도구들을 Next.js로 구현",
-            "en": "Implemented web tools to improve development efficiency, including color picker, JSON viewer, and date calculator using Next.js."
+            "ko": "멀티태스킹이 빈번한 환경을 위해 설계된 고성능 로컬 퍼스트 유틸리티 플랫폼. JSON 뷰어, 날짜 계산기, 색상 선택기 등 필수 도구들을 보안성과 속도가 강화된 환경으로 제공함",
+            "en": "A high-performance, local-first utility platform designed for multi-tasking individuals at startups. Provides essential tools like JSON viewer, date calculator, and color picker with enhanced security and speed."
           }
         }
       ]
@@ -363,17 +289,37 @@
       "period": "2023",
       "name": { "ko": "Obsidian Plugins", "en": "Obsidian Plugins" },
       "type": { "ko": "Open Source", "en": "Open Source" },
-      "url": "https://github.com/zafrem",
+      "url": "https://github.com/zafrem/obsidian-role-switch",
       "role": {
-        "ko": "Plugin 개발",
-        "en": "Plugin Development"
+        "ko": "Plugin 개발 및 메인테이너",
+        "en": "Plugin Development & Maintainer"
       },
       "details": [
         {
-          "title": { "ko": "Obsidian 플러그인 생태계 기여", "en": "Obsidian Plugin Ecosystem Contribution" },
+          "title": { "ko": "Obsidian 공식 커뮤니티 플러그인 기여", "en": "Obsidian Official Community Plugin Contribution" },
           "description": {
-            "ko": "지식 관리 도구인 Obsidian을 위한 flip-clock, writing-momentum 등 다수의 플러그인 개발",
-            "en": "Developed multiple plugins for knowledge management tool Obsidian, such as flip-clock and writing-momentum."
+            "ko": "지식 관리 도구인 Obsidian의 공식 생태계에 'Role Switch' 플러그인을 릴리즈 및 머지 완료함. 이 외에도 flip-clock, writing-momentum 등 다수의 오픈소스 플러그인을 개발하여 배포함",
+            "en": "Released and merged the 'Role Switch' plugin into the official Obsidian community ecosystem. Also developed and distributed multiple open-source plugins including flip-clock and writing-momentum."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mathly",
+      "period": "2024.11",
+      "name": { "ko": "Mathly 🚀", "en": "Mathly 🚀" },
+      "type": { "ko": "Interactive Learning Platform", "en": "Interactive Learning Platform" },
+      "url": "https://zafrem.github.io/Mathly",
+      "role": {
+        "ko": "기획 및 개발",
+        "en": "Planning & Development"
+      },
+      "details": [
+        {
+          "title": { "ko": "고속 연산 학습을 위한 인터랙티브 플랫폼 개발", "en": "Interactive Platform for High-speed Mental Arithmetic" },
+          "description": {
+            "ko": "Next.js 15와 Framer Motion을 활용하여 설계된 'Computational Repetition' 플랫폼. '빠른 응답'과 '생동감'을 테마로 지루한 연산 반복 학습을 몰입감 있는 사용자 경험으로 혁신함",
+            "en": "A 'Computational Repetition' platform built with Next.js 15 and Framer Motion. Focused on 'fast response' and 'liveliness,' transforming repetitive math practice into an engaging and reactive user experience."
           }
         }
       ]
@@ -381,24 +327,23 @@
   ],
   "skills": {
     "advance": [
+      { "ko": "Data-driven Security Operations", "en": "Data-driven Security Operations" },
       { "ko": "EndPoint/Server/Network 보안", "en": "EndPoint/Server/Network Security" },
-      { "ko": "데이터 분석", "en": "Data Analysis" },
-      { "ko": "Python", "en": "Python" },
-      { "ko": "데이터 엔지니어링", "en": "Data Engineering" },
-      { "ko": "데이터 사이언스", "en": "Data Science" }
+      { "ko": "데이터 분석 및 마이닝", "en": "Data Analysis & Mining" },
+      { "ko": "보안 거버넌스 및 기획", "en": "Security Governance & Planning" },
+      { "ko": "Python", "en": "Python" }
     ],
     "intermediate": [
-      { "ko": "Security Coding", "en": "Security Coding" },
-      { "ko": "Splunk", "en": "Splunk" },
-      { "ko": "Cloud 보안 체계", "en": "Cloud Security Framework" },
-      { "ko": "Node.js", "en": "Node.js" },
-      { "ko": "TDD", "en": "TDD" }
+      { "ko": "데이터 엔지니어링", "en": "Data Engineering" },
+      { "ko": "보안 솔루션 아키텍처", "en": "Security Solution Architecture" },
+      { "ko": "Splunk / ELK", "en": "Splunk / ELK" },
+      { "ko": "Device Driver 개발", "en": "Device Driver Development" },
+      { "ko": "Node.js", "en": "Node.js" }
     ],
     "basic": [
-      { "ko": "시스템 운영", "en": "System Operation" },
-      { "ko": "Device Driver 개발", "en": "Device Driver Development" },
-      { "ko": "C", "en": "C" },
-      { "ko": "Java", "en": "Java" }
+      { "ko": "C / C++", "en": "C / C++" },
+      { "ko": "Java / Spring", "en": "Java / Spring" },
+      { "ko": "Android 개발", "en": "Android Development" }
     ]
   }
 }
