@@ -80,7 +80,7 @@ export default function MobileNav() {
         
         {/* Drawer Content */}
         <div 
-          className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-[2.5rem] p-8 shadow-2xl transition-transform duration-500 transform ${
+          className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl p-8 shadow-2xl transition-transform duration-500 transform ${
             isHistoryOpen ? "translate-y-0" : "translate-y-full"
           }`}
         >
@@ -103,7 +103,7 @@ export default function MobileNav() {
               <button
                 key={item.id}
                 onClick={() => handleSelect(item.id)}
-                className={`w-full text-left p-5 rounded-2xl transition-all border flex items-center justify-between ${
+                className={`w-full text-left p-5 rounded-xl transition-all border flex items-center justify-between ${
                   activeId === item.id
                     ? "bg-black text-white border-black shadow-lg"
                     : "bg-gray-50 text-gray-700 border-gray-100"

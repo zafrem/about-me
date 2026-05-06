@@ -67,7 +67,7 @@ export default function Sidebar() {
               <button
                 key={item.id}
                 onClick={() => handleItemClick(item.id)}
-                className={`w-full text-left p-5 rounded-2xl transition-all duration-300 group ${
+                className={`w-full text-left p-5 rounded-xl transition-all duration-300 group ${
                   activeId === item.id
                     ? "bg-black text-white shadow-xl shadow-black/10 scale-[1.02]"
                     : "bg-white text-gray-700 border border-gray-100 hover:border-gray-300 hover:shadow-md"
@@ -122,7 +122,7 @@ export default function Sidebar() {
               href={resumeData.profile.links.blog} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-between p-4 bg-white border border-gray-100 rounded-2xl hover:border-black hover:shadow-md transition-all group"
+              className="flex items-center justify-between p-4 bg-white border border-gray-100 rounded-xl hover:border-black hover:shadow-md transition-all group"
             >
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-lg bg-gray-50 flex items-center justify-center">

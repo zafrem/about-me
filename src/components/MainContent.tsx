@@ -85,7 +85,7 @@ export default function MainContent() {
               onClick={() => setActiveDetailIdx(idx)}
               className="group relative text-left"
             >
-              <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-gray-100 hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-500 group-hover:-translate-y-1 w-full">
+              <div className="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-500 group-hover:-translate-y-1 w-full">
                 <div className="flex justify-between items-start mb-6">
                   <h3 className="text-xl font-black text-gray-900 pr-8">
                     {detail.title[language as keyof typeof detail.title]}
@@ -161,7 +161,7 @@ export default function MainContent() {
             className="absolute inset-0 bg-black/40 backdrop-blur-md"
             onClick={() => setActiveDetailIdx(null)}
           />
-          <div className="relative bg-white w-full max-w-3xl max-h-full overflow-y-auto rounded-[3rem] shadow-2xl p-10 md:p-16 animate-in fade-in zoom-in duration-300">
+          <div className="relative bg-white w-full max-w-3xl max-h-full overflow-y-auto rounded-3xl shadow-2xl p-10 md:p-16 animate-in fade-in zoom-in duration-300">
             <button 
               onClick={() => setActiveDetailIdx(null)}
               className="absolute top-8 right-8 w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:text-black hover:bg-gray-100 transition-all"
